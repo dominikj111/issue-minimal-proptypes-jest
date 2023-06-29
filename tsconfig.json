@@ -1,0 +1,20 @@
+{
+  "include": ["src/**/*", "tests/**/*"],
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node16",
+    "allowSyntheticDefaultImports": true,
+    "alwaysStrict": true,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "checkJs": true,
+    "lib": ["ESNext", "DOM", "ESNext.String"],
+    "jsx": "react",
+    "baseUrl": "."
+  }
+}
